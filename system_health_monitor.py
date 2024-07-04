@@ -33,7 +33,7 @@ def check_disk_usage():
         log_message(f"ALERT: High disk usage detected: {disk_usage_percent}%")
 
 
-#execution begin from here
+#Check health after every minute
 while True:
     log_message("Checking system health...")
     check_cpu_usage()
